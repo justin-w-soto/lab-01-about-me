@@ -5,5 +5,17 @@
     border: solid orange 15px;
     border-radius: 20px;
     box-shadow: 10px 10px 5px darkgray;
-   
 };
+
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+button:hover {
+    background: red;
+    color: white;
+    font-size: large;
+}

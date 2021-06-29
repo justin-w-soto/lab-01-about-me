@@ -1,4 +1,4 @@
-export function isYes(word) {
+export function correctAnswer(word) {
     word = word.toLowerCase();
 
     if (word === 'yes' || word === 'y'){
