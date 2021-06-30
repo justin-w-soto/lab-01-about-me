@@ -1,5 +1,6 @@
 body {
     background: rgb(241, 243, 240);
+ 
 }
 main {
     display: flex;
@@ -35,6 +36,11 @@ section {
     box-shadow: 10px 10px 5px darkgray;
 }
 
+#ninja-turtle:hover{
+    border: solid purple 15px;
+    background: green;
+}
+
 h1 {
     font-size: 5rem;
     color: rgb(107, 175, 4);
@@ -47,6 +53,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Dela Gothic One', cursive;
     color:rgb(231, 69, 196);
+
 }
 button { 
     background: rgb(252, 179, 95);
@@ -62,6 +69,13 @@ button:hover {
     font-size: xx-large;
 }
 
+ol:hover{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPrWd4OtbTnkxGilJuqUX5QX-sa0ODXNT-Zg&usqp=CAU);
+    color: rgb(108, 207, 16);
+    text-shadow: 5px 5px 5px black;
+    font-size: xx-large;
+    border: solid orange 10px;
+}
 .lists {
     font-size: 25px;
     font-family: 'Dela Gothic One', cursive;
