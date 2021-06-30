@@ -16,14 +16,14 @@ section {
     align-items: center;
 
 }
-
-.gutter-right {
-    margin-right: 20px;
+#img-font-size {
+    font-size: 40px;
 }
-
-p {
-    margin: var(--gutter);
-    font-size: 30px;
+#results {
+    padding: 10px;
+    margin: 10px;
+    border: solid green 5px;
+    border-radius: 10px;
 }
 
 #ninja-turtle {
@@ -53,6 +53,7 @@ button {
     font-size: large;
     border-radius: 10px;
     box-shadow: 5px 5px darkgray;
+    margin: 20px;
 }
 
 button:hover {
@@ -62,7 +63,7 @@ button:hover {
 }
 
 .lists {
-    font-size: larger;
+    font-size: 25px;
     font-family: 'Dela Gothic One', cursive;
     margin: 10px;
 }
