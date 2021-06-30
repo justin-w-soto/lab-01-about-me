@@ -6,7 +6,7 @@
 // track num of correct answers
 // at quiz end, update results section with number of correct answers from quiz.
 
-import { correctAnswer } from "./test/utils.js";
+import { correctAnswer } from './test/utils.js';
 
 const quizButton = document.getElementById('click-me');
 const results = document.getElementById('results');
@@ -16,10 +16,10 @@ quizButton.addEventListener('click', ()=>{
     console.log(confirmed);
     if (confirmed) {
         const name = prompt('What is your name?');
-        const ans1 = prompt('Is Michelangelos favorite food pizza?');
-        const ans2 = prompt('Does he like to do skateboards?');
-        const ans3 = prompt('Is Michelangelo a Karate expert?');
-        const ans4 = prompt('Does the Shredder totally suck?');
+        const ans1 = prompt('Please answer yes or no. Is Michelangelos favorite food pizza?');
+        const ans2 = prompt('Please answer yes or no. Does he like to do skateboards?');
+        const ans3 = prompt('Please answer yes or no. Is Michelangelo a Karate expert?');
+        const ans4 = prompt('Please answer yes or no. Does the Shredder totally suck?');
         console.log(name, ans1, ans2, ans3, ans4);
 
         let score = 0;
