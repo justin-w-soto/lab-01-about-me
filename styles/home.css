@@ -61,9 +61,10 @@ button:hover {
     font-size: xx-large;
 }
 
-ul {
+.lists {
     font-size: larger;
     font-family: 'Dela Gothic One', cursive;
+    margin: 10px;
 }
 
 #Q1:hover {
