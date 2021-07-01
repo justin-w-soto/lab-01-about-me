@@ -4,6 +4,6 @@ export function correctAnswer(word) {
     if (word === 'yes' || word === 'y'){
         return true;
     } else {
-        false;
+        return false;
     }
 }
